@@ -1,0 +1,18 @@
+div {
+    border: 1px solid red;
+    white-space: pre;
+    user-select: text;
+}
+
+a:active {
+    pointer-events: none;
+}
+
+.log {
+    cursor: col-resize;
+}
+
+p::selection {
+    color: white;
+    background: green;
+}

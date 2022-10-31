@@ -1,0 +1,16 @@
+li:hover::after {
+    content: ".";
+}
+
+#parent {
+    counter-reset: test;
+}
+
+p::before {
+    counter-increment: test;
+    content: "№"counter(test);
+}
+
+a::after {
+    content: attr(href);
+}

@@ -1,0 +1,19 @@
+#prob {
+    letter-spacing: -1px;
+}
+
+#test {
+    word-spacing: 10px;
+}
+
+#registr {
+    text-transform: capitalize;
+}
+
+p::first-letter {
+    color: red;
+}
+
+p::first-line {
+    color: red;
+}

@@ -1,0 +1,11 @@
+#one {
+    width: 80%;
+    column-width: 300px;
+}
+
+#two {
+    width: 1000px;
+    column-count: 4;
+    column-gap: 30px;
+    column-rule: dotted;
+}

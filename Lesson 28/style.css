@@ -1,0 +1,34 @@
+#elem7 {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 15px 0px 2px black;
+}
+
+#elem8 {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 15px 5px 2px black;
+}
+
+#elem9 {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 15px 5px 2px black, -10px -15px 5px 2px black;
+}
+
+#elem10 {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    box-shadow: inset 3px 3px 5px 0px black;
+}
+
+#elem11 {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    box-shadow: inset 3px 3px 3px 0px blue, inset -3px -3px 1px 0px red;
+}

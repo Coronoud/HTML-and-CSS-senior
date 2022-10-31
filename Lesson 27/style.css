@@ -1,0 +1,19 @@
+#elem6 {
+    text-shadow: 0px 2px 3px black;
+}
+
+#elem7 {
+    text-shadow: 0px 0px 3px black;
+}
+
+#elem8 {
+    text-shadow: 0px 0px 5px red;
+}
+
+#elem9 {
+    text-shadow: 10px 10px 3px red, -10px -10px 3px blue;
+}
+
+#elem10 {
+    text-shadow: 10px 10px 1px red, 20px 20px 2px blue;;
+}

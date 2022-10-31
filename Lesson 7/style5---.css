@@ -1,0 +1,9 @@
+table {
+	width: 400px;
+	empty-cells: hide;
+}
+td {
+	border: 1px solid black;
+	background-color: #f3f3f3;
+	text-align: center;
+}

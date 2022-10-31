@@ -1,0 +1,22 @@
+#parent1 {
+    border: 1px solid red;
+    width: 500px;
+    height: 80px;
+}
+
+#child1 {
+    border: 1px solid green;
+    height: 80px;
+    width: calc(50% + 200px);
+}
+
+#paren2 {
+    border: 1px solid red;
+}
+
+#child2 {
+    border: 1px solid green;
+    width: max(300px, 50%);
+    height: 80px;
+    margin: 0 auto;
+}

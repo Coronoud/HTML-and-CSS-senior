@@ -1,0 +1,8 @@
+input:checked + label {
+    color: red;
+}
+
+input:disabled {
+    border: 1px solid red;
+    box-shadow: 1px 1px 2px 2px red;
+}
