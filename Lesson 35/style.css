@@ -1,0 +1,43 @@
+#sq {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+}
+
+#sq:hover {
+    transform: rotate(45deg);
+}
+
+#sq2 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+}
+
+#sq2:hover {
+    transform: scale(1.5, 1.5);
+}
+
+#sq3 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+}
+
+#sq3:hover {
+    transform: skew(30deg);
+}
+
+#sq4 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+}
+
+#sq4:hover {
+    transform: translate(-60px, -60px)
+}

@@ -1,0 +1,273 @@
+#elem {
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    animation-name: block;
+    animation-duration: initial;
+    animation-duration: 5s;
+    animation-delay: 500ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes block {
+    from {
+        margin-left: 0px;
+    }
+
+    to {
+        margin-left: 300px;
+    }
+}
+
+#elem2 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    animation-name: square;
+    animation-duration: 6s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes square {
+    from {
+        background: red;
+    }
+
+    to {
+        background: white;
+    }
+}
+
+#elem3 {
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+        top: 0;
+      }
+
+      25% {
+        left: 300px;
+        top: 0;
+      }
+
+      50% {
+        left: 300px;
+        top: 300px;
+      }
+      75% {
+        left: 0;
+        top: 300px;
+      }
+      100% {
+        left: 0;
+        top: 0;
+      }    
+}
+
+#elem4 {
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    animation-name: redd;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes redd {
+    0% {
+        left: 0;
+        top: 0;
+      }
+
+      25% {
+        left: 300px;
+        top: 0;
+      }
+
+      50% {
+        left: 300px;
+        top: 300px;
+      }
+      75% {
+        left: 0;
+        top: 300px;
+      }
+      100% {
+        left: 0;
+        top: 0;
+      }    
+
+      from {
+        background: red;
+      }
+
+      to {
+        background: white;
+      }
+}
+
+#elem5 {
+    border: 1px solid red;
+    width: 50px;
+    height: 50px;
+    animation-name: blocked;
+    animation-duration: initial;
+    animation-duration: 3s;
+    animation-delay: 500ms;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+    position: relative;
+}
+
+@keyframes blocked {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    50% {
+        top: 0;
+        left: 300px;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+
+#elem7 {
+    border: 1px solid red;
+    width: 300px;
+    height: 100px;
+    animation: long 2s ease-in infinite paused;
+}
+
+#elem7:hover {
+    animation-play-state: running;
+}
+
+@keyframes long {
+    from {
+        width: 300px;
+    }
+
+    to {
+        width: 600px;
+    }
+}
+
+#elem8 {
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
+}
+
+#elem80 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    animation: rbox 3s ease-in-out paused infinite;
+}
+
+#elem8:hover + #elem80 {
+    animation-play-state: running;
+}
+
+@keyframes rbox {
+    0% {
+        width: 100px;
+    }
+
+    50% {
+        width: 500px;
+    }
+
+    100% {
+        width: 100px;
+    }
+}
+
+#elem9 {
+    border: 1px solid red;
+    height: 320px;
+    width: 320px;
+    position: absolute;
+}
+
+#ball {
+    border: 1px solid red;
+    border-radius: 50%;
+    background: red;
+    width: 20px;
+    height: 20px;
+    animation: bally 5s infinite;
+    position: relative;
+}
+
+@keyframes bally {
+    0% {
+        top: 0;
+        left: 0;
+        animation-timing-function: ease-in;
+    }
+
+    12% {
+        top: 300px;
+        left: 50px;
+        animation-timing-function: ease-out;
+    }
+
+    24% {
+        top: 270px;
+        left: 70px;
+        animation-timing-function: ease-in;
+    }
+
+    36% {
+        top: 300px;
+        left: 90px;
+        animation-timing-function: ease-out;
+    }
+
+    48% {
+        top: 285px;
+        left: 100px;
+        animation-timing-function: ease-in;
+    }
+
+    60% {
+        top: 290px;
+        left: 105px;
+        animation-timing-function: ease-out;
+    }
+
+    72% {
+        top: 300px;
+        left: 107px;
+        animation-timing-function: ease-in;
+    }
+
+    84% {
+        top: 295px;
+        left: 109px;
+        animation-timing-function: ease-out;
+    }
+
+    100% {
+        top: 300px;
+        left: 110px;
+        animation-timing-function: ease-in;
+    }
+}

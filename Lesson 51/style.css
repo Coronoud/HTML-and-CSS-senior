@@ -1,0 +1,17 @@
+.parent	{
+	display: flex;
+	width: 400px;
+	height: 200px;
+	border: 1px solid red;
+}
+.child {
+	height: 50px;
+	border: 1px solid green;
+}
+.elem1 {
+    
+	flex-grow: 2;
+}
+.elem2 {
+	flex-grow: 1;
+}

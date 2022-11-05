@@ -1,0 +1,23 @@
+#block1 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+}
+
+#block1:hover {
+    transform-origin: right bottom;
+    transform: rotate(45deg);
+}
+
+#block2 {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s;
+}
+
+#block2:hover {
+    transform-origin: right bottom;
+    transform: scale(2)
+}

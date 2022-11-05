@@ -1,0 +1,99 @@
+#elem {
+    border: 1px solid red;
+    width: 300px;
+    height: 100px;
+    transition: background 1s ease-in-out;
+}
+
+#elem:hover {
+    background: red;
+}
+
+#elem2 {
+    border: 1px solid red;
+    color: red;
+    width: 300px;
+    height: 100px;
+    transition: background 1s ease-in-out, color 1s ease-out;
+}
+
+#elem2:hover {
+    background: red;
+    color: white;
+}
+
+#elem3 {
+    border: 1px solid red;
+    color: red;
+    width: 300px;
+    height: 100px;
+    transition: width 1s;
+}
+
+#elem3:hover {
+    width: 500px;
+}
+
+#elem4 {
+    border: 1px solid red;
+    width: 300px;
+    height: 100px;
+    transition: width 2s, margin-left 2s ease;
+}
+
+#elem4:hover {
+    width: 500px;
+    margin-left: 50px;
+}
+
+#elem5 {
+    border: 1px solid red;
+    width: 300px;
+    height: 100px;
+    transition: width 1s ease 2s;
+}
+
+#elem5:hover {
+    width: 500px;
+}
+
+#elem6 {
+    border: 1px solid red;
+    width: 300px;
+    height: 100px;
+    transition: width 3s cubic-bezier(.20, -0.4, 0, .81);
+}
+
+#elem6:hover {
+    width: 500px;
+}
+
+#elem7 {
+    border: 1px solid black;
+    color: black;
+    width: 100px;
+    height: auto;
+    transition: width 3s ease-in-out, color 500ms;
+    outline-style: none;
+}
+
+#elem7:focus {
+    width: 500px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+
+#elem8 {
+    border: 1px solid black;
+    color: black;
+    width: 100px;
+    height: auto;
+    transition: all 1s;
+    outline-style: none;
+}
+
+#elem8:focus {
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    box-shadow: 0px 0px 2px blueviolet;
+}
